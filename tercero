@@ -1,0 +1,10 @@
+Inicio
+	var numero
+	var aux
+	escribir "Ingrese un numero"
+	leer(numero)
+	para(var i=1 i<numero i++)
+		numero=numero*i
+	finPara
+	mostrar(El factorial es "numero")
+Fin
